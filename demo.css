@@ -181,7 +181,7 @@ html body{
     right:0;
     border-top-right-radius:20px;
     border-bottom-right-radius:20px;
-    border:1px solid #000;
+    /* border:1px solid #000; */
     overflow: hidden;
 }
 .wrapper .search-wrap .search-con .search-box .search-t .search-panel .btn button{
@@ -244,7 +244,7 @@ html body{
 }
 .wrapper .search-wrap .search-con .search-box .search-bl a{
     font-size:12px;
-    margin-right:-4px;
+    margin-right:-1px;
     color:#3c3c3c;
     cursor: pointer;
 }
@@ -346,4 +346,247 @@ html body{
     width:1190px;
     border:1px solid red;
     margin:0 auto;
+}
+.wrapper .screen-box .main{
+    float:left;
+    width:890px;
+    height:632px;
+    /* border:1px solid black; */
+}
+.wrapper .screen-box .main .main-inner{
+    width:890px;
+    height: 522px;
+    /* border:1px solid black; */
+}
+.wrapper .screen-box .main .main-inner .inner-left{
+    float:left;
+    width:190px;
+    height: 515px;
+    border:1px solid #f40;
+    border-top:none;
+    background-color:#fff;
+}
+.wrapper .screen-box .main .main-inner .inner-left ul li{
+    position: relative;
+    height: 32px;
+    width: 145px;
+    padding-left:25px;
+    padding-right:19px;
+}
+.wrapper .screen-box .main .main-inner .inner-left ul li:hover{
+    background-color:#ffe4dc;
+}
+.wrapper .screen-box .main .main-inner .inner-left ul li:hover a{
+    color:#ff5000;
+}
+.wrapper .screen-box .main .main-inner .inner-left ul li a{
+    font-size:14px;
+    color:#666;
+    font-weight: 400;
+    line-height: 32px;
+}
+.wrapper .screen-box .main .main-inner .inner-left ul li span{
+    position: absolute;
+    display:inline-block;
+    width:5px;
+    height: 8px;
+    /* border:1px solid black; */
+    right:10px;
+    top:50%;
+    margin-top:-4px;
+    background:url('./img/yjt.png');
+    background-size:100% 100%;
+}
+.wrapper .screen-box .main .main-inner .inner-content{
+    float:left;
+    width:520px;
+    height: 522px;
+    /* border:1px solid black; */
+}
+.wrapper .screen-box .main .main-inner .inner-content .pic-box{
+    padding:8px;
+}
+.wrapper .screen-box .main .main-inner .inner-content .inner-mall{
+    width:520px;
+    height:230px;
+    margin:0 8px;
+}
+.wrapper .screen-box .main .main-inner .inner-content .inner-mall .tm{
+    font-size:12px;
+    color:#666;
+}
+.wrapper .screen-box .main .main-inner .inner-right{
+    float:left;
+    padding:8px;
+    width:160px;
+    height: 522px;
+}
+.wrapper .screen-box .main .main-inner .inner-right .hot{
+    margin-top:11px;
+    font-size:12px;
+}
+.wrapper .screen-box .main .main-bottom{
+    width:890px;
+    height: 100px;
+    /* border:1px solid black; */
+}
+.wrapper .screen-box .main .main-bottom .content{
+    position: relative;
+    background-color:#fff;
+    padding:14px 12px;
+    margin-top:10px;
+}
+.wrapper .screen-box .main .main-bottom .content .logo-box{
+    width:180px;
+    height: 73px;
+    background-image:url('./img/tbtt.png');
+    background-position: 100% 100%;
+}
+.wrapper .screen-box .main .main-bottom .content a{
+    position: absolute;
+    top:14px;
+    left:200px;
+}
+.wrapper .screen-box .main .main-bottom .content a img{
+    float:left;
+}
+.wrapper .screen-box .main .main-bottom .content a h4{
+    margin-top:2px;
+    margin-left:144px;
+    color:#333;
+    height: 28px;
+    line-height: 28px;
+    font-size:16px;
+}
+.wrapper .screen-box .main .main-bottom .content a h4:hover{
+    color:#ff5000;
+}
+.wrapper .screen-box .main .main-bottom .content a p{
+    margin-left:144px;
+    color:#999;
+    height: 36px;
+    line-height: 14px;
+    overflow: hidden;
+    margin-top:3px;
+}
+.wrapper .screen-box .col-right{
+    float:left;
+    width:290px;
+    height: 632px;
+    border:1px solid black;
+}
+.wrapper .screen-box .col-right .member{
+    width:290px;
+    height: 132px;
+    /* border:1px solid black; */
+    background-image:url('./img/bg.png');
+    background-size:100% 100%;
+    margin-top:6px;
+}
+.wrapper .screen-box .col-right .member .member-header{
+    width:290px;
+    height:91px;
+}
+.wrapper .screen-box .col-right .member .member-header .header{
+    width:290px;
+    height: 56px;
+    text-align:center;
+    /* border:1px solid black; */
+}
+.wrapper .screen-box .col-right .member .member-header .header a{
+    display:inline-block;
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    background-image:url('./img/tx.jpg');
+    background-size:100% 100%;
+}
+.wrapper .screen-box .col-right .member .member-header .info{
+    display:block;
+    width:290px;
+    height: 17px;
+    color:#3c3c3c;
+    text-align:center;
+    line-height: 17px;
+}
+.wrapper .screen-box .col-right .member .member-header p{
+    width:290px;
+    height: 17px;
+    /* display:inline-block; */
+    text-align:center;
+    line-height: 17px;
+}
+.wrapper .screen-box .col-right .member .member-header p a{
+    display:inline-block;
+    width:72px;
+    height: 17px;
+    border-radius:9px;
+    background:#ffe4db;
+    font-size:12px;
+    color:#ff5000;
+    padding:0 20px;
+    position: relative;  
+}
+.wrapper .screen-box .col-right .member .member-header p a span{
+    position: absolute;
+    display:inline-block;
+    width:16px;
+    height: 16px;
+    top:0;
+    left:0;
+    background-image:url('./img/pics.png')
+}
+.wrapper .screen-box .col-right .member .member-header p .icon span{
+    background-position: 0 -572.5px;
+}
+.wrapper .screen-box .col-right .member .member-header p .club span{
+    background-position: 0 -528px;
+}
+.wrapper .screen-box .col-right .member .member-foot{
+    width:290px;
+    height:40px;
+    padding-top:10px;
+    text-align:center;
+}
+.wrapper .screen-box .col-right .member .member-foot a{
+    display:inline-block;
+    height: 25px;
+    width: 75px;
+    background:linear-gradient(to right,#ff5000 0,#ff6f60 100%);
+    border-radius:4px;
+    text-align:center;
+    line-height: 25px;
+    font-size:14px;
+    color:#fff;
+    font-weight:700;
+}
+.wrapper .screen-box .col-right .member .member-foot a.login{
+    width:92px;
+}
+.wrapper .screen-box .col-right .message{
+    width:290px;
+    height:26px;
+    /* border:1px solid black; */
+    position: relative;
+}
+.wrapper .screen-box .col-right .message a{
+    display:inline-block;
+    width:100%;
+    height: 100%;
+    background-color:#ffe4dd;
+    color:#f40;
+    font-size:12px;
+    text-align:center;
+    line-height: 26px;
+}
+.wrapper .screen-box .col-right .message span{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    /* border:1px solid black; */
+    position: absolute;
+    top:8px;
+    right:52px;
+    background-image:url('./img/ysj.png');
+    background-size:100% 100%;
 }
