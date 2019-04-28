@@ -18,7 +18,7 @@ html body{
 /* 上导航条 */
 .wrapper .top-nav-wrap{
     width: 100%;
-    height:105px ;
+    /* height:105px ; */
     /* border:1px solid black; */
 }
 .wrapper .top-nav-wrap .top-nav{
@@ -100,7 +100,6 @@ html body{
     width:100%;
     height:70px;
 }
-
 /* 搜索区域 */
 .wrapper .search-wrap{
     height: 97px;
@@ -124,7 +123,7 @@ html body{
     width:190px;
     height: 105px;
     vertical-align:top;
-    background-image:url('./img/logo.png');
+    background-image:url('./img/logo.gif');
     /* border:1px solid black; */
 }
 .wrapper .search-wrap .search-con .search-box{
@@ -171,9 +170,9 @@ html body{
     /* border:1px solid #000; */
     position: relative;
 }
-.wrapper .search-wrap .search-con .search-box .search-t .search-panel form{
+/* .wrapper .search-wrap .search-con .search-box .search-t .search-panel form{
 
-}
+} */
 .wrapper .search-wrap .search-con .search-box .search-t .search-panel form .btn{
     height:40px;
     width:74px;
@@ -238,8 +237,6 @@ html body{
     background-image:url('./img/camera.png');
     background-size:100% 100%;
 }
-
-
 .wrapper .search-wrap .search-con .search-box .search-bl{
     height:20px;
     width:627px;
@@ -292,18 +289,56 @@ html body{
     line-height: 16px;
     text-align:center;
 }
-
-
-
-
-
-
 /* 搜索下的导航条 */
 .wrapper .screen-nav{
     width:1190px;
     height:30px;
-    background-color:#f40;
+    background:linear-gradient(to right,#ff9000 0, #ff5000 100%);
     margin:0 auto;
+}
+.wrapper .screen-nav .screen-nav-con{
+    width:100%;
+    height:100%;
+}
+.wrapper .screen-nav .screen-nav-con h2{
+    /* 如果设置成行级块元素h2标签将会浮动到右边,所以可以让ul li向右浮动 */
+    float:left;
+    font-size:16px;
+    /* font-weight: bold; */
+    color:#fff;
+    height:100%;
+    width:190px;
+    background-color:#ff5000;
+    line-height: 30px;
+    text-align:center;
+}
+.wrapper .screen-nav .screen-nav-con ul{
+    float:left;
+    /* font-size:16px;
+    height:30px; */
+}
+.wrapper .screen-nav .screen-nav-con ul li{
+    float:left;
+    margin:0 3px;
+    padding:0 4px;
+    position: relative;
+}
+.wrapper .screen-nav .screen-nav-con ul .top-xb:hover::before{
+    content:"";
+    display:block;
+    width:30px;
+    height: 30px;
+    background:url('./img/up.png') no-repeat;
+    background-size:center center;
+    position:absolute;
+    top:-10px;
+    left:50%;
+    margin-left:-15px;
+}
+.wrapper .screen-nav .screen-nav-con ul li a{
+    color:#fff;
+    font-weight:700;
+    line-height: 30px;
 }
 /* 主要图片展示内容区域 */
 .wrapper .screen-box{
